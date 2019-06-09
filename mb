@@ -1,0 +1,146 @@
+echo "# Test-page for blog post. \nhttp://abdulmadzhidov.ru/blog/Github-Pages/" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mrZizik/test-page.git
+git push -u origin master
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: pink;
+            }
+        h2{
+                font-style: oblique;
+                background:aliceblue;
+                
+                }
+        h3{
+                    background-color: aliceblue;
+             }
+             span{
+                background-color: aliceblue; 
+             }
+                h4{
+                    background-color: aliceblue;
+                }
+                body{
+                    background: aliceblue;
+                    
+                }
+                p{
+                    background-color: aliceblue
+                }
+                html{
+                    /* //background:url('https://s1.1zoom.me/b5050/438/Lilac_Pie_Baking_453229_1920x1200.jpg') no-repeat center center; */
+                    background-color: black;
+    /* Принудительно указываем высоту равную 100% от высоты окна браузера */
+    min-height:100%;
+
+    /* Магия */
+    background-size:cover;
+                }
+                a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  /* border: 2px solid #fe6637;
+  border-radius: 8px; */
+  font-family: 'Montserrat', sans-serif; 
+  color: #fe6637;
+  transition: .2s ease-in-out;
+}
+/* a:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  transform: skewX(-45deg);
+}
+a:hover {
+  background: #fe6637;
+  color: #fff;
+}
+a:hover:before {
+  left: 150px;
+  transition: .5s ease-in-out;
+} */
+.thumb img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ transition: all 1s ease-out;
+ }
+   .thumb img:hover {
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+ }
+ .x{
+    font-style: oblique;
+ }
+    </style>
+</head>
+<body>
+    <h1>Скульптуры Из Зубочисток.</h1>
+    <h2>Зубочистки предназначены для одноразогого использования, и они сгорят с достоинством, выполнив свой долг, однако немногие их нас знают, что зубочистки модго использовать и для искусства. Здесь будут представленны несколько работ из зубочисток.</h2>
+    <h3>Bob Morehead</h3>
+    <p>У американца под псевдонимом Bob Morehead весьма необычное хобби. Он делает скульптуры из зубочисток. И не просто скульптуры, а порой и целые города!</p>
+    <p class="thumb">
+            <a href="#"><img src="https://cs8.pikabu.ru/post_img/big/2016/03/07/12/1457382992187568280.jpg"width="341" height="239"></a>
+            <a href="#"><img src="https://cs8.pikabu.ru/post_img/big/2016/03/07/12/1457382993132935176.jpg"width="341" height="239"></a>
+                <a href="#"><img src="https://cs8.pikabu.ru/post_img/big/2016/03/07/12/1457382998153360703.jpg"width="341" height="239"></a>
+                    <a href="#"> <img src="https://cs8.pikabu.ru/post_img/big/2016/03/07/12/145738299412895374.jpg"width="341" height="239"></a>
+                        <a href="#"><img src="https://cs8.pikabu.ru/post_img/big/2016/03/07/12/1457383006150049586.jpg"width="341" height="239"></a>
+           </p>
+           <p><p class="x">«Я создаю вещи из зубочисток... Тысяч и тысяч зубочисток и столярного клея».</p> Говорит сам Боб.<br> </p>
+           <h3>Stanley Hayes Munro</h3>
+           <p></p>Stanley Hayes Munro из Нью-Йорка, который называет себя экспертом по зубочисткам, построил самую большую скульптуру из зубочисток в мире в виде небоскреба Бурдж-Халифа в Дубае. Ее высота составляет пять метров. В нашей подборке – лучшие работы мастера по зубочисткам.
+           <p class="thumb">
+                <a href="#"><img src="http://www.fresher.ru/mary/11-2015/udivitelnye-skulptury-iz-zubochistok/1.jpg"width="270" height="179"></a>
+                <a href="#"><img src="https://ostrnum.com/wp-content/uploads/2015/11/91556419_9.jpg"width="270" height="179"></a>
+                    <a href="#"><img src="http://www.fresher.ru/mary/11-2015/udivitelnye-skulptury-iz-zubochistok/7.jpg"width="270" height="179"></a>
+                        <a href="#"> <img src="http://www.fresher.ru/mary/11-2015/udivitelnye-skulptury-iz-zubochistok/4.jpg"width="270" height="179"></a>
+                            <a href="#"><img src="http://www.fresher.ru/mary/11-2015/udivitelnye-skulptury-iz-zubochistok/11.jpg"width="270" height="179"></a>
+                            <a href="#"><img src="http://www.fresher.ru/mary/11-2015/udivitelnye-skulptury-iz-zubochistok/14.jpg"width="270" height="179"></a>
+                        </p>
+                        <h3>Огромная скульптура из зубочисток</h3>
+                        <p>К такому хобби надо много сил и терпения.</p>
+                        <p class="thumb">
+                                <a href="#"><img src="https://placepic.ru/uploads/posts/2010-11/1289898482_placepic.ru_tn_003.jpg"width="270" height="179"></a>
+                                <a href="#"><img src="https://placepic.ru/uploads/posts/2010-11/thumbs/1289898492_placepic.ru_spichki_002.jpg"width="270" height="179"></a>
+                                    <a href="#"><img src="https://placepic.ru/uploads/posts/2010-11/thumbs/1289898498_placepic.ru_spichki_005.jpg"width="270" height="179"></a>
+                                        <a href="#"> <img src="https://placepic.ru/uploads/posts/2010-11/thumbs/1289898576_placepic.ru_spichki_007.jpg"width="270" height="179"></a>
+                                            <a href="#"><img src="https://placepic.ru/uploads/posts/2010-11/thumbs/1289898541_placepic.ru_spichki_009.jpg"width="270" height="179"></a>
+                                            <a href="#"><img src="https://placepic.ru/uploads/posts/2010-11/thumbs/1289898497_placepic.ru_spichki_012.jpg"width="270" height="179"></a>
+                                        </p>
+                        <h1>Топ 5</h1>
+                        <p class="thumb">
+                                <a href="#"><img src="https://bugaga.ru/uploads/posts/2015-01/1422290385_iz-zubochistok-4.jpg"width="270" height="179"></a>
+                                <a href="#"><img src="https://bugaga.ru/uploads/posts/2015-01/1422290399_iz-zubochistok-12.jpg"width="270" height="179"></a>
+                                    <a href="#"><img src="https://bugaga.ru/uploads/posts/2015-01/1422290435_iz-zubochistok-13.jpg"width="270" height="179"></a>
+                                            <a href="#"><img src="http://www.kulturologia.ru/files/oleczka/Tom_Friedman/Tom_Friedman11.jpg"width="208" height="250"></a>
+                                            <a href="#"><img src="https://bugaga.ru/uploads/posts/2015-01/1422290482_iz-zubochistok-1.jpg"width="320" height="385"></a>
+                                        </p>
+         <!-- Делала в последний день, не бейте!!!!! -->
+</body>
+</html>
